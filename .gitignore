@@ -32,3 +32,23 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# =================================================================================== #
+# declarations after init, below
+# =================================================================================== #
+
+## IDE
+.idea
+
+## env
+.envrc
+.direnv
+
+## git
+*.orig
+
+## MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
