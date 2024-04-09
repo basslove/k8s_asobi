@@ -6,7 +6,7 @@ jobs:
     name: Unit test  # PRに出る
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout ${{ jobs.steps }}
         uses: actions/checkout@v2.0.0
       - name: Set Node.js 12.x
         uses: actions/setup-node@v1.3.0
